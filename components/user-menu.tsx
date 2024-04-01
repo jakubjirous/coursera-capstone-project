@@ -1,7 +1,7 @@
 "use client";
 
 import * as Popover from "@radix-ui/react-popover";
-import { User } from "@supabase/gotrue-js";
+import type { User } from "@supabase/auth-js";
 import { useState } from "react";
 
 export default function UserMenu({
